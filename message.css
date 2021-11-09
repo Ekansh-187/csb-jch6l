@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.form {
+  background-color: antiquewhite;
+
+  height: 600px;
+  border-radius: 12px;
+  font-family: "Ubuntu", "sans-serif";
+  margin: auto;
+  width: 50%;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.img {
+  position: relative;
+  left: 55%;
+  bottom: 70%;
+}
+
+#message,
+#name,
+#email {
+  border-radius: 12px;
+  width: 30%;
+  background-color: gainsboro;
+  color: black;
+  border: 3px solid;
+}
+
+#email,
+#name {
+  height: 30px;
+}
+#button {
+  position: relative;
+  border-radius: 12px;
+  border: 2px solid;
+  bottom: 12px;
+  transition: 0.5s ease;
+}
+
+.form button:hover {
+  background-color: cadetblue;
+}
